@@ -17,13 +17,13 @@ int main()
 {
     int i,j,n,totwt,tottt;
     float arg1,arg2;
-    printf("enter the number of process");
+    printf("Enter the number of process: ");
     scanf("%d",&n);
     for(i=1;i<=n;i++) {
         p[i].pid=i;
-        printf("enter the burst time");
+        printf("Enter the burst time: ");
         scanf("%d",&p[i].bt);
-        printf("\n enter the priority");
+        printf("Enter the priority: ");
         scanf("%d",&p[i].prior);
     }
 

@@ -73,8 +73,7 @@ int main()
     while(1)
     {
         // system("cls");
-        printf("Options :-\n1.Add Reader.\n2.Add Writer.\n3.Remove Reader.\n4.Remove \
-                Writer.\n5.Exit.\n\n\tChoice : ");
+        printf("Options :-\n1.Add Reader.\n2.Add Writer.\n3.Remove Reader.\n4.Remove Writer.\n5.Exit.\n\n\tChoice : ");
         int ch;
         scanf("%d",&ch);
         switch(ch)

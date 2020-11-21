@@ -6,7 +6,8 @@ void main()
     int buffer[10], bufsize, in, out, produce, consume, choice=0;
     in = 0;
     out = 0;
-    bufsize = 10;
+    printf("Enter buffer size: ");
+    scanf("%d", &bufsize);
     while(choice !=3) {
         printf("\n1. Produce\t 2. Consume \t3. Exit");
         printf("\nEnter your choice:=");
